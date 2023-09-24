@@ -1,11 +1,13 @@
 # Computer Science II
 ## Lab 2.0 - Conditionals & Loops
+[School of Computing](https://computing.unl.edu)  
+[College of Engineering](https://engineering.unl.edu/)  
+[University of Nebraska-Lincoln](https://unl.edu)  
+[University of Nebraska-Omaha](https://unomaha.edu)  
 
 An introduction to using conditionals and loops in the Java programming language.
-A separate folder containing a PHP version of this lab is also 
+A separate folder containing a Python version of this lab is 
 included for the honors section.
-
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
 
