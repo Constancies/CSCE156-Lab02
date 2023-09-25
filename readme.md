@@ -182,7 +182,7 @@ Total Credit:   $1500.00
 
 * Test your programs using the provided JUnit test suite(s).  Fix any
 errors and completely debug your programs.
-* Submit the following files through webhandin:
+* Submit the following files:
   * `Natural.java`
   * `ChildCredit.java`
 * Run the grader and verify the output to complete your lab.
