@@ -7,14 +7,12 @@ import java.util.List;
  * This program produces a report on how much a a tax payer can expect for their
  * child tax credits.
  * 
- * @author cbourke
- *
  */
 public class ChildCredit {
 
 	/**
-	 * Produces a report (printed to the standard output) of how much
-	 * of a credit each child receives as well as a grand total.
+	 * Produces a report (printed to the standard output) of how much of a credit
+	 * each child receives as well as a grand total.
 	 * 
 	 * Returns the total child tax credit.
 	 * 

@@ -1,11 +1,10 @@
 # Computer Science II
 ## Lab 2.0 - Conditionals & Loops
 ### Python Version
-
-**[School of Computing](https://computing.unl.edu/)**  
-**[College of Engineering](https://engineering.unl.edu/)**  
-**[University of Nebraska-Lincoln](https://unl.edu)**  
-**[University of Nebraska-Omaha](https://unomaha.edu)**  
+[School of Computing](https://computing.unl.edu)  
+[College of Engineering](https://engineering.unl.edu/)  
+[University of Nebraska-Lincoln](https://unl.edu)  
+[University of Nebraska-Omaha](https://unomaha.edu)  
 
 An introduction to using conditionals and loops in the Python programming language.
 
@@ -253,18 +252,18 @@ Total Credit:    $ 1500.00
     of children, iterate over it and output output a table similar to
     the one above.  Your function should then return the total credit.
     Note: to access a member variable, use the dot operator; example:
-    `tom.age` (Python does not have true private member variables)
+    `tom.age` (Python does not have private member variables)
 
 4.  Test your implementation by the provided unit test suite:
     `python test_natural.py`  
 
 ### 4. Testing, Submitting & Grading
 
-* Test your programs, fix any errors, and completely debug your programs.
-* Submit the following files through webhandin:
+* Test your programs, fix any errors, and completely debug your programs
+* Submit the following files:
   * `natural.py`
   * `child_credit.py`
-* Run the grader and verify the output to complete your lab.
+* Run the grader and verify the output to complete your lab
 
 ### Advanced Activity (Optional)
 

@@ -4,8 +4,6 @@ package unl.soc;
  * This program demonstrates the use of various loop control structures to
  * compute the sum of natural numbers.
  * 
- * @author cbourke
- *
  */
 public class Natural {
 

@@ -5,11 +5,12 @@ import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
 
-import unl.soc.Child;
-import unl.soc.ChildCredit;
-
 import org.junit.Test;
 
+/**
+ * JUnit test suite for {@link ChildCredit} methods
+ *
+ */
 public class ChildCreditTests {
 
 	/**

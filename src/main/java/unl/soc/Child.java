@@ -3,8 +3,6 @@ package unl.soc;
 /**
  * A basic data class that models a child.
  * 
- * @author cbourke
- *
  */
 public class Child {
 
