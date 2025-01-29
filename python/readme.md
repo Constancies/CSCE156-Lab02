@@ -244,7 +244,7 @@ Total Credit:    $ 1500.00
 1.  Open the `child.py` and `child_credit.py` script files
 
 2.  A `Child` class has already been defined and included in the
-    `child_credit.php` script. Observe how the `Child` class is used.
+    `child_credit.py` script. Observe how the `Child` class is used.
     Several instances of children have been created and placed
     into a list.
 
@@ -255,7 +255,7 @@ Total Credit:    $ 1500.00
     `tom.age` (Python does not have private member variables)
 
 4.  Test your implementation by the provided unit test suite:
-    `python test_natural.py`  
+    `python test_child_credit.py`  
 
 ### 4. Testing, Submitting & Grading
 
