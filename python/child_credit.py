@@ -23,6 +23,7 @@ def produceReport(children):
     for i in range(len(children)):
         report += f"\n{children[i]}   $ {credit_values[i]}"
     report += f"\nTotal Credit:    $ {total_credit}"
+    print(report)
     return total_credit
     
 
@@ -35,7 +36,7 @@ def main():
     children = [tom, dick, harry]
 
     # TODO: call your function here
-    print(produceReport(children))
+    produceReport(children)
 
 if __name__ == "__main__":
     main()

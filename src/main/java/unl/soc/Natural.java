@@ -13,8 +13,13 @@ public class Natural {
 	 * @return
 	 */
 	public static int sumWithWhile(int n) {
-		// TODO: write a while-loop to compute the sum of 1..n
-		return 0;
+		int i = 0;
+		int sum = 0;
+		while(i < n + 1) {
+			sum += i;
+			i++;
+		}
+		return sum;
 	}
 
 	/**
@@ -23,8 +28,11 @@ public class Natural {
 	 * @return
 	 */
 	public static int sumWithFor(int n) {
-		// TODO: write a for-loop to compute the sum of 1..n
-		return 0;
+		int sum = 0;
+		for(int i = 0; i < n + 1; i++) {
+			sum += i;
+		}
+		return sum;
 	}
 
 	public static void main(String args[]) {

@@ -20,9 +20,32 @@ public class ChildCredit {
 	 * @return
 	 */
 	public static int produceReport(List<Child> kids) {
-		// TODO: write a loop to iterate over the elements in the child array
-		// and output a table as specified
-		return 0;
+		ArrayList<Double> creditValues = new ArrayList<Double>();
+		boolean bonusGiven = false;
+		
+		for(int i = 0; i < kids.size(); i++) {
+			if(kids.get(i).getAge() < 18 && !bonusGiven) {
+				creditValues.add(1000.00);
+				bonusGiven = true;
+			} else if(kids.get(i).getAge() < 18) {
+				creditValues.add(500.00);
+			} else {
+				creditValues.add(0.00);
+			}
+		}
+		
+		int totalCredit = 0;
+		for(int i = 0; i < creditValues.size(); i++) {
+			totalCredit += creditValues.get(i);
+		}
+		
+		String report = "Child          Amount   ";
+		for(int i = 0; i < kids.size(); i++) {
+			report += "\n" + kids.get(i).toString() + "          $ " + creditValues.get(i);
+		}
+		report += "\nTotal Credit:          $ " + totalCredit;
+		System.out.println(report);
+		return totalCredit;
 
 	}
 
