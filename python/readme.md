@@ -249,7 +249,7 @@ Total Credit:    $ 1500.00
     into a list.
 
 3.  Implement the `generateReport` function: it should take a list
-    of children, iterate over it and output output a table similar to
+    of children, iterate over it and output a table similar to
     the one above.  Your function should then return the total credit.
     Note: to access a member variable, use the dot operator; example:
     `tom.age` (Python does not have private member variables)
